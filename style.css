@@ -1,7 +1,9 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
 }
 h1 {
+  font-family: "Montserrat", sans-serif;
   font-size: 50px;
   margin: 20px 0;
   color: gray;
@@ -9,12 +11,20 @@ h1 {
 .orange-color {
   color: orange;
 }
-section {
+.about-me {
+  background-image: url("images/7.png");
+}
+.about-me .half-width img {
+  width: 50%;
+  padding-left: 14%;
+}
+.flexible-container {
   display: flex;
+  justify-content: center;
   margin: 100px 22px;
 }
 .half-width {
-  width: 50%;
+  width: 46%;
   padding-left: 4%;
 }
 .half-width p {
@@ -28,4 +38,25 @@ section {
   background-image: linear-gradient(90deg, orange, tomato);
   padding: 11px 30px;
   border-radius: 20px;
+}
+.labeba {
+  width: 100%;
+}
+.recipi-item {
+  width: 25%;
+  box-shadow: 10px 10px 40px gray;
+  margin-left: 5%;
+  margin-right: 0%;
+  padding: 20px;
+  border-radius: 30px;
+}
+.recipies-area {
+  text-align: center;
+}
+.cooking {
+  box-shadow: 10px 10px 40px gainsboro;
+  margin-left: 15%;
+  margin-right: 20%;
+  padding: 20px;
+  border-radius: 30px;
 }
